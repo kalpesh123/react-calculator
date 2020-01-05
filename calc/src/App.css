@@ -20,17 +20,18 @@
 }
 
 .input-wrap{
-  flex: 1;
-  justify-content: center;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   font-size: 18px;
   color: #000;
   outline: 1px solid grey;
   background-color: beige;
-  height:50px;
-  margin-top:40px;
-  text-align: right;
+  height: 50px;
+  margin-top: 40px;
   padding: 5px;
+  font-weight: bold;
+  width: 100%;
 }
 
 .clear-input{
